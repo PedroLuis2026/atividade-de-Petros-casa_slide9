@@ -57,6 +57,8 @@ while True:
                    print(f"A tarefa {verde}{deletada}{reset} foi concluida com sucesso")
                    print("=" * 30)
                    continue
+                else:
+                    print(f"{vermelho}Número inválido!{reset}")
             except ValueError:
                 print(f"{vermelho}APENAS DIGITE NÚMEROS!{reset}")
                 print("=" * 30)
