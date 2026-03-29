@@ -17,7 +17,7 @@ while True:
     print("4. Listar tarefas concluidas")
     print("5. Sair do programa")
     print(f"{len(tarefas_concluidas)} Tarefas foram concluidas")
-    print("=" * 30)
+    print("=" * 34)
     try:
         escolha = int(input("Digite a opção que você deseja: (apenas as númerações) "))
         if escolha not in [1, 2, 3, 4, 5]:
@@ -29,7 +29,7 @@ while True:
     if escolha == 1:
         criar = input("Digite a tarefa que você quer fazer: ")
         tarefas.append(criar)
-        print(f"{verde}Tarefa adicionada!^{reset}")
+        print(f"{verde}Tarefa adicionada!{reset}")
         print("=" * 30)
         continue
     if escolha == 2:
